@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asteroids 3D – Three.js</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="hud">Wynik: 0</div>
+        <div id="help">
+            Sterowanie: A / D lub ← / → &nbsp;&nbsp;|&nbsp;&nbsp; R – restart po kolizji
+        </div>
+        <div id="gameOverOverlay">
+            <h1>Game Over</h1>
+            <p id="finalScore"></p>
+            <p>Naciśnij <b>R</b>, aby zrestartować</p>
+            <button class="btn-restart" onclick="window.restartGame()">Restart</button>
+        </div>
+    </div>
+
+    <script type="module" src="game.js"></script>
+</body>
+</html>
