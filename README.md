@@ -50,10 +50,6 @@ python -m http.server 8000
 # http://localhost:8000
 ```
 
-### Wymagania:
-- Nowoczesna przeglądarka z obsługą WebGL (Chrome, Firefox, Edge, Safari)
-- Połączenie internetowe (dla załadowania Three.js z CDN)
-
 ## Sterowanie
 
 | Klawisz | Akcja |
@@ -100,6 +96,3 @@ Wszystkie modele są tworzone proceduralnie w kodzie:
   - Dwóch skrzydeł - `BoxGeometry`
 - **Asteroidy** - `IcosahedronGeometry` z losową skalą
 
-## Licencja
-
-Projekt edukacyjny - wolny do użytku.
